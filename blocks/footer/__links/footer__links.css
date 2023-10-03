@@ -1,6 +1,11 @@
+.footer__links {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-template-rows: 1fr;
+    column-gap: 18px;
+}
 @media screen and (max-width: 767px) {
     .footer__links {
-        display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(5, 1fr);
         gap: 32px;

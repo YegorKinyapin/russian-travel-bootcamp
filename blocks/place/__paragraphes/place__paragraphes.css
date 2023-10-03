@@ -1,8 +1,7 @@
 .place__paragraphes {
     grid-area: paragraphes;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(2, auto);
+    display: flex;
+    flex-direction: column;
     gap: 27px;
 }
 @media screen and (max-width: 767px) {

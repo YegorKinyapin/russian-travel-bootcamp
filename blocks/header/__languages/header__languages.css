@@ -1,5 +1,11 @@
 .header__languages {
-    /* max-width: ; */
     display: flex;
     align-items: flex-end;
+    gap: 18px;
+    margin-bottom: 6px;
+}
+@media screen and (max-width: 767px) {
+    .header__languages {
+        margin-bottom: 8px;
+    }
 }
